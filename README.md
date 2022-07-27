@@ -1,38 +1,38 @@
 # Challenge Data Analytics - Python
 
-### Initiate a Conda Enviroment
+### Iniciar un Entorno Conda
 
-For this project, I've used the Anaconda distribution of Python. So follow this steps to create an enviroment:
+Para este proyecto, he usado la distribución Anaconda de Python. Así que sigue estos pasos para crear un entorno:
 
-1. To create an environment:
+1. Para crear un entorno, ejecutar:
 
 ```
 conda create -n yourenv pip
 ```
 
-- Replace "yourenv" with the name of the new environment. The command pip should make you able to work with pip to install the packages needed with pip.
+- Reemplace "yourenv" con el nombre del nuevo entorno. El comando pip debería permitirle trabajar con pip para instalar los paquetes necesarios con pip.
 
-2. To activate an environment:
+2. Para activar un Entorno Conda:
 
 ```
 conda activate myenv
 ```
 
-- This should activate the environment and load some packages.
+- Esto debería activar el entorno y cargar algunos paquetes.
 
-3. To download all the packages, run:
+3. Para descargar todos los paquetes, ejecute:
 
 ```
 pip install -r requirements.txt
 ```
 
-#### Take in count:
+#### Tener en cuenta:
 
-The urls of the databases could be changed in the `app/links.py` if necessary.
+Las urls de las bases de datos se pueden cambiar en el `app/links.py` si es necesario.
 
-- To connect with PostgreSQL, you need to add your PostgreSQL data in `.env`
+- Para conectarse con PostgreSQL, debe agregar sus datos de PostgreSQL en `.env`
 
-4. Once you have the package we can execute the code with:
+4. Una vez que tenga todos los paquetes instalados, podemos ejecutar la applicación así:
 
 ```
 python app/main.py
